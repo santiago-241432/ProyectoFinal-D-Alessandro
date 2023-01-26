@@ -1,0 +1,27 @@
+
+
+#global{
+    background-color:$color1;
+}
+
+
+
+#titulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+.descripcion {
+    color:$colorletras;
+}
+
+.card-filter{
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.filter{
+    display: none;
+}

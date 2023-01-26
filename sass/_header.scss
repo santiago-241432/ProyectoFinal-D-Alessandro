@@ -1,0 +1,43 @@
+.bg-propio {
+    background-color:$color2;
+    position:relative;
+
+    .descripcion2{
+        display:none;
+        color:$colorletras;
+        
+
+    }
+
+    &:hover .descripcion2{
+        display:block
+    }
+
+    .comprar {
+        position:absolute;
+        bottom:10px;
+        left:10px;
+        background-color: transparent;
+        border:none;
+        color:$color1;
+        text-decoration-line: underline;
+                  
+    }
+
+}
+
+#navbarSupportedContent{
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color:$color1;
+                cursor: pointer;
+            }
+
+        }
+
+    }
+
+}
+
+

@@ -1,0 +1,29 @@
+#seccion2{
+    display: flex;
+    justify-content: space-evenly;
+   .seleccion{
+        background-color:$color2;
+        padding: 1%;
+        margin: 1%;
+        color:$colorletras;
+        width: auto;
+        height: auto;
+
+   }
+}
+
+#seccion3{
+
+    display: flex;
+    justify-content: center;
+    background-color:$color3;
+    .comprar{
+        background-color: transparent;
+        border: none;
+        color: rgb(66, 3, 3);
+        text-decoration-line: underline;
+    }
+
+
+}
+

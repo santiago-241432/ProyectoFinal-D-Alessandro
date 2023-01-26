@@ -1,0 +1,78 @@
+@media (max-width:612px){
+    #footer{
+        display:block
+    }
+}
+
+@media (max-width:900px){
+    #seccion2 {
+        display:block;
+        text-align: center;
+        width: 100%;
+        height:auto;
+        padding: 5%;
+        
+    }
+}
+
+@media (max-width:800px){
+    #filtros{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width:800px){
+    #seccion{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 800px){
+    #ofertas{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 800px){
+    #ofertascel{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 800px){
+    #ofertascel{
+        display: none;
+    }
+
+
+}
+
+@media (min-width: 800px){
+    #ofertascel{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 1200px){
+    .ham{
+        width:180px;
+        height:150px;
+    }
+
+
+}
+
+@media (min-width:800px){
+    #seccion{
+        display:flex;
+        justify-content: space-evenly;
+    }
+}

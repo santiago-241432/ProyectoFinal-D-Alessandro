@@ -1,0 +1,224 @@
+#ofertas {
+  width: 100%;
+  height: 400px;
+}
+
+#ofertascel {
+  width: 100%;
+  height: 400px;
+}
+
+.hamburguesas {
+  position: relative;
+}
+
+#carrito {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  background-color: rgb(243, 198, 115);
+}
+#carrito .carritoHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  color: white;
+  margin: 1px;
+  cursor: pointer;
+}
+#carrito .carritoEstilo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(66, 3, 3);
+  margin: 1px;
+}
+#carrito .carritoEstilo .imagenCarrito {
+  width: 80px;
+  height: 80px;
+}
+#carrito .carritoEstilo .letraCarrito {
+  color: white;
+  margin-top: 1.5%;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgb(66, 3, 3);
+}
+#footer .mapa {
+  margin: 10px 10px 10px 10px;
+}
+#footer .copy {
+  font-size: xx-large;
+  color: rgb(243, 198, 115);
+}
+#footer .redes {
+  font-size: xx-large;
+  color: rgb(243, 198, 115);
+}
+#footer .redes .icono {
+  width: 50px;
+  height: auto;
+}
+
+#global {
+  background-color: rgb(243, 198, 115);
+}
+
+#titulo {
+  display: flex;
+  justify-content: center;
+}
+
+.descripcion {
+  color: white;
+}
+
+.card-filter {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.filter {
+  display: none;
+}
+
+#seccion2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+#seccion2 .seleccion {
+  background-color: rgb(66, 3, 3);
+  padding: 1%;
+  margin: 1%;
+  color: white;
+  width: auto;
+  height: auto;
+}
+
+#seccion3 {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(225, 89, 89);
+}
+#seccion3 .comprar {
+  background-color: transparent;
+  border: none;
+  color: rgb(66, 3, 3);
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.ham {
+  width: 250px;
+  height: 200px;
+}
+
+.bg-propio {
+  background-color: rgb(66, 3, 3);
+  position: relative;
+}
+.bg-propio .descripcion2 {
+  display: none;
+  color: white;
+}
+.bg-propio:hover .descripcion2 {
+  display: block;
+}
+.bg-propio .comprar {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: transparent;
+  border: none;
+  color: rgb(243, 198, 115);
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+#navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  color: rgb(243, 198, 115);
+  cursor: pointer;
+}
+
+@media (max-width: 612px) {
+  #footer {
+    display: block;
+  }
+}
+@media (max-width: 900px) {
+  #seccion2 {
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 5%;
+  }
+}
+@media (max-width: 800px) {
+  #filtros {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  #seccion {
+    display: block;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  #ofertas {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  #ofertascel {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  #ofertascel {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  #ofertascel {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .ham {
+    width: 180px;
+    height: 150px;
+  }
+}
+@media (min-width: 800px) {
+  #seccion {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+.crear-cuenta {
+  padding: 1%;
+  margin: 1%;
+  background-color: rgb(66, 3, 3);
+  color: white;
+}
+
+.iniciar-sesion {
+  padding: 1%;
+  margin: 1%;
+  background-color: rgb(66, 3, 3);
+  color: white;
+}/*# sourceMappingURL=main.css.map */
